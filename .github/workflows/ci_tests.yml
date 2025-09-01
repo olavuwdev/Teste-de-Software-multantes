@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout do código
-        uses: aactions/checkout
+        uses: actions/checkout
 
       - name: Configurar Python
         uses: actions/setup-python
